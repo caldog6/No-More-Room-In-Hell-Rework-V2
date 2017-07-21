@@ -39,7 +39,7 @@ SWEP.Primary.Sound = "Weapon_Sako.Single"
 SWEP.Primary.Ammo = "SniperPenetratedRound"
 SWEP.Primary.Automatic = false
 SWEP.Primary.RPM = 30
-SWEP.Primary.Damage = 95
+SWEP.Primary.Damage = 125
 SWEP.Primary.NumShots = 1
 SWEP.Primary.Spread		= .015					--This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
 SWEP.Primary.IronAccuracy = .0025	-- Ironsight accuracy, should be the same for shotguns
@@ -54,10 +54,10 @@ SWEP.Primary.SpreadMultiplierMax = 4.5 --How far the spread can expand when you 
 SWEP.Primary.SpreadIncrement = 0.6 --What percentage of the modifier is added on, per shot.
 SWEP.Primary.SpreadRecovery = 4.5 --How much the spread recovers, per second.
 
-SWEP.Secondary.IronFOV = 60 --Ironsights FOV (90 = same)
-SWEP.Secondary.ScopeZoom			= 12
+SWEP.Secondary.IronFOV = 80 --Ironsights FOV (90 = same)
+SWEP.Secondary.ScopeZoom			= 10
 SWEP.BoltAction = true --Un-sight after shooting?
-SWEP.BoltTimerOffset = 0.0 --How long do we remain in ironsights after shooting?
+SWEP.BoltTimerOffset = 0.1 --How long do we remain in ironsights after shooting?
 
 SWEP.IronSightsPos = Vector(-3.87, 2.226, 0.8)
 SWEP.IronSightsAng = Vector(0, 0, -0)

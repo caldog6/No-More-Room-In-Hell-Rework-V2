@@ -57,7 +57,7 @@ SWEP.Primary.SpreadMultiplierMax = 4.5 --How far the spread can expand when you 
 SWEP.Primary.SpreadIncrement = 1.2 --What percentage of the modifier is added on, per shot.
 SWEP.Primary.SpreadRecovery = 3.5 --How much the spread recovers, per second.
 
-SWEP.Secondary.IronFOV = 55 --Ironsights FOV (90 = same)
+SWEP.Secondary.IronFOV = 75 --Ironsights FOV (90 = same)
 SWEP.BoltAction = false --Un-sight after shooting?
 SWEP.BoltTimerOffset = 0.0 --How long do we remain in ironsights after shooting?
 

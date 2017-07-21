@@ -1174,6 +1174,17 @@ sound.Add( {
 } )
 
 sound.Add( {
+	name = "Weapon_Glock18.Fire1",
+	channel = CHAN_BASE,
+	volume = 1.0,
+	level = SNDLVL_GUNFIRE,
+	pitch = {95,100},
+	sound = {
+		")weapons/firearms/hndg_glock17/glock_fire_01.wav"
+ 	},
+} )
+
+sound.Add( {
 	name = "Weapon_glock17.MagazineIn",
 	channel = CHAN_ITEM,
 	volume = 0.5,
@@ -2213,6 +2224,17 @@ sound.Add( {
 } )
 
 sound.Add( {
+	name = "weapon_db.Single.bs",
+	channel = CHAN_WEAPON,
+	volume = 1.0,
+	level = SNDLVL_GUNFIRE,
+	pitch = {95,105},
+	sound = {
+		")weapons/firearms/shtg_berettasv10/beretta_fire_01_bs.wav"
+ 	},
+} )
+
+sound.Add( {
 	name = "weapon_db.Close",
 	channel = CHAN_ITEM,
 	volume = 0.5,
@@ -2262,7 +2284,7 @@ sound.Add( {
 sound.Add( {
 	name = "weapon_db.LoadShell",
 	channel = CHAN_ITEM,
-	volume = 0.2,0.4,
+	volume = 0.4,0.5,
 	pitch = {95,105},
 	level = SNDLVL_55dB,
 	sound = {
@@ -2313,7 +2335,7 @@ SNDLVL_180dB = 180
 	
 sound.Add( {
 	name = "Weapon_686.Single",
-	channel = CHAN_WEAPON,
+	channel = CHAN_BASE,
 	volume = 1.0,
 	level = SNDLVL_GUNFIRE,
 	pitch = {95,100},

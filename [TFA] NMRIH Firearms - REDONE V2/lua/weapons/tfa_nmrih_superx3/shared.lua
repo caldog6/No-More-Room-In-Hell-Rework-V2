@@ -29,7 +29,7 @@ SWEP.Offset = { --Procedural world model animation, defaulted for CS:S purposes.
 SWEP.Scoped = false
 
 SWEP.Shotgun = true
-SWEP.ShellTime = 0.75
+SWEP.ShellTime = 7/12
 
 SWEP.Primary.ClipSize = 6
 SWEP.Primary.DefaultClip = 24
@@ -38,8 +38,8 @@ SWEP.Primary.Sound = "Weapon_ShotgunAuto.Single"
 SWEP.Primary.Ammo = "buckshot"
 SWEP.Primary.Automatic = false
 SWEP.Primary.RPM = 240
-SWEP.Primary.Damage = 12
-SWEP.Primary.NumShots = 12
+SWEP.Primary.Damage = 20
+SWEP.Primary.NumShots = 10
 SWEP.Primary.Spread		= .05					--This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
 SWEP.Primary.IronAccuracy = .05	-- Ironsight accuracy, should be the same for shotguns
 SWEP.FireModeName = "Semi-Auto"

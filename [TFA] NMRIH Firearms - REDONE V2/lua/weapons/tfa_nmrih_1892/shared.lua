@@ -27,7 +27,7 @@ SWEP.Offset = { --Procedural world model animation, defaulted for CS:S purposes.
 SWEP.Scoped = false
 
 SWEP.Shotgun = true
-SWEP.ShellTime = 1
+SWEP.ShellTime = 0.5
 
 SWEP.Primary.ClipSize = 15
 SWEP.Primary.DefaultClip = 60
@@ -35,16 +35,16 @@ SWEP.Primary.DefaultClip = 60
 SWEP.Primary.Sound = "Weapon_Win1892.Single"
 SWEP.Primary.Ammo = "ar2"
 SWEP.Primary.Automatic = false
-SWEP.Primary.RPM = 40
-SWEP.Primary.Damage = 70
+SWEP.Primary.RPM = 48
+SWEP.Primary.Damage = 95
 SWEP.Primary.NumShots = 1
-SWEP.Primary.Spread		= .02					--This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
-SWEP.Primary.IronAccuracy = .0075	-- Ironsight accuracy, should be the same for shotguns
+SWEP.Primary.Spread		= .00010					--This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
+SWEP.Primary.IronAccuracy = .00002	-- Ironsight accuracy, should be the same for shotguns
 SWEP.FireModeName = "Lever Action"
 
-SWEP.Primary.KickUp			= 1.4					-- This is the maximum upwards recoil (rise)
-SWEP.Primary.KickDown			= 1.0					-- This is the maximum downwards recoil (skeet)
-SWEP.Primary.KickHorizontal			= 0.5					-- This is the maximum sideways recoil (no real term)
+SWEP.Primary.KickUp			= 1.9					-- This is the maximum upwards recoil (rise)
+SWEP.Primary.KickDown			= 1.3					-- This is the maximum downwards recoil (skeet)
+SWEP.Primary.KickHorizontal			= 0.6					-- This is the maximum sideways recoil (no real term)
 SWEP.Primary.StaticRecoilFactor = 0.45 	--Amount of recoil to directly apply to EyeAngles.  Enter what fraction or percentage (in decimal form) you want.  This is also affected by a convar that defaults to 0.5.
 
 SWEP.Secondary.IronFOV = 75 --Ironsights FOV (90 = same)

@@ -34,7 +34,7 @@ SWEP.ShellTime = 0.75
 SWEP.Primary.ClipSize = 19
 SWEP.Primary.DefaultClip = 76
 
-SWEP.Primary.Sound = "Weapon_Glock17.Fire1"
+SWEP.Primary.Sound = "Weapon_Glock18.Fire1"
 SWEP.Primary.Ammo = "pistol"
 SWEP.Primary.Automatic = true
 SWEP.Primary.RPM = 1200

@@ -35,7 +35,7 @@ SWEP.ShellTime = 8/12
 SWEP.Primary.ClipSize = 2
 SWEP.Primary.DefaultClip = 12
 
-SWEP.Primary.Sound = "weapon_db.Single"
+SWEP.Primary.Sound = "weapon_db.Single.bs"
 SWEP.Primary.Ammo = "buckshot"
 SWEP.Primary.Automatic = false
 SWEP.Primary.RPM = 200
