@@ -2346,7 +2346,7 @@ sound.Add( {
 
 sound.Add( {
 	name = "Weapon_686.Single_h",
-	channel = CHAN_WEAPON,
+	channel = CHAN_BASE,
 	volume = 1.0,
 	level = SNDLVL_GUNFIRE,
 	pitch = {95,100},

@@ -1,5 +1,5 @@
 SWEP.Base = "tfa_nmrih_base_fa"
-SWEP.Category = "TFA NMRIH"
+SWEP.Category = "TFA NMRIH - Tier 3"
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 
@@ -36,7 +36,7 @@ SWEP.Primary.DefaultClip = 120
 SWEP.Primary.Sound = "Weapon_cz858.Single"
 SWEP.Primary.Ammo = "ar2"
 SWEP.Primary.Automatic = false
-SWEP.Primary.RPM = 800
+SWEP.Primary.RPM = 600
 SWEP.Primary.Damage = 40
 SWEP.Primary.NumShots = 1
 SWEP.Primary.Spread		= .02					--This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)

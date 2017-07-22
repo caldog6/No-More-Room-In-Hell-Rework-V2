@@ -1,10 +1,11 @@
 SWEP.Base = "tfa_nmrih_base_fa"
-SWEP.Category = "TFA NMRIH - Custom"
+SWEP.Category = "TFA NMRIH - Tier BROKEN"
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 SWEP.Slot = 2
 
-SWEP.PrintName = "Colt M16A1?"
+SWEP.PrintName = "Colt M16A1"
+SWEP.Instructions = "Do you like hurting other people?"
 
 SWEP.ViewModel			= "models/weapons/tfa_nmrih/v_fa_m16a4_carryhandle.mdl" --Viewmodel path
 SWEP.ViewModelFOV = 50

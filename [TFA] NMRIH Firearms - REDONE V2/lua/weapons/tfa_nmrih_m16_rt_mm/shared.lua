@@ -1,5 +1,5 @@
 SWEP.Base = "tfa_nmrih_base_3d"
-SWEP.Category = "TFA NMRIH - Custom"
+SWEP.Category = "TFA NMRIH - Tier 1"
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 SWEP.Slot = 3

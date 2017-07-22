@@ -1,5 +1,5 @@
 SWEP.Base = "tfa_nmrih_base_fa"
-SWEP.Category = "TFA NMRIH - Custom"
+SWEP.Category = "TFA NMRIH - Tier BROKEN"
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 

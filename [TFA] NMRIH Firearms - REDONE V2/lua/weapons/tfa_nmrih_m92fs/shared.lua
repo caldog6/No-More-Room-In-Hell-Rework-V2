@@ -1,5 +1,5 @@
 SWEP.Base = "tfa_nmrih_base_fa"
-SWEP.Category = "TFA NMRIH"
+SWEP.Category = "TFA NMRIH - Tier 2"
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 
@@ -43,14 +43,14 @@ SWEP.Primary.NumShots = 1
 SWEP.Primary.Spread		= .015					--This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
 SWEP.Primary.IronAccuracy = .01	-- Ironsight accuracy, should be the same for shotguns
 
-SWEP.Primary.KickUp			= 0.28					-- This is the maximum upwards recoil (rise)
+SWEP.Primary.KickUp			= 0.27					-- This is the maximum upwards recoil (rise)
 SWEP.Primary.KickDown			= 0.2					-- This is the maximum downwards recoil (skeet)
 SWEP.Primary.KickHorizontal			= 0.2					-- This is the maximum sideways recoil (no real term)
 SWEP.Primary.StaticRecoilFactor = 0.5 	--Amount of recoil to directly apply to EyeAngles.  Enter what fraction or percentage (in decimal form) you want.  This is also affected by a convar that defaults to 0.5.
 
 SWEP.Primary.SpreadMultiplierMax = 3.25 --How far the spread can expand when you shoot.
 SWEP.Primary.SpreadIncrement = 1 --What percentage of the modifier is added on, per shot.
-SWEP.Primary.SpreadRecovery = 4 --How much the spread recovers, per second.
+SWEP.Primary.SpreadRecovery = 4.5 --How much the spread recovers, per second.
 
 SWEP.Secondary.IronFOV = 90 --Ironsights FOV (90 = same)
 SWEP.BoltAction = false --Un-sight after shooting?
