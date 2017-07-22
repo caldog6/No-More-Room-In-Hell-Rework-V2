@@ -37,7 +37,7 @@ SWEP.Primary.Sound = "Weapon_22.Single"
 SWEP.Primary.Ammo = "pistol"
 SWEP.Primary.Automatic = false
 SWEP.Primary.RPM = 600
-SWEP.Primary.Damage = 26
+SWEP.Primary.Damage = 28
 SWEP.Primary.NumShots = 1
 SWEP.Primary.Spread		= .015					--This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
 SWEP.Primary.IronAccuracy = .005	-- Ironsight accuracy, should be the same for shotguns
@@ -48,9 +48,9 @@ SWEP.Primary.KickDown			= 0.2					-- This is the maximum downwards recoil (skeet
 SWEP.Primary.KickHorizontal			= 0.2					-- This is the maximum sideways recoil (no real term)
 SWEP.Primary.StaticRecoilFactor = 0.25 	--Amount of recoil to directly apply to EyeAngles.  Enter what fraction or percentage (in decimal form) you want.  This is also affected by a convar that defaults to 0.5.
 
-SWEP.Primary.SpreadMultiplierMax = 4 --How far the spread can expand when you shoot.
+SWEP.Primary.SpreadMultiplierMax = 3 --How far the spread can expand when you shoot.
 SWEP.Primary.SpreadIncrement = 0.6 --What percentage of the modifier is added on, per shot.
-SWEP.Primary.SpreadRecovery = 4.5 --How much the spread recovers, per second.
+SWEP.Primary.SpreadRecovery = 5.5 --How much the spread recovers, per second.
 
 SWEP.Secondary.IronFOV = 80 --Ironsights FOV (90 = same)
 SWEP.BoltAction = false --Un-sight after shooting?

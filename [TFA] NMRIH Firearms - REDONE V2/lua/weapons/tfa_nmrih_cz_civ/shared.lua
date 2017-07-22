@@ -3,7 +3,7 @@ SWEP.Category = "TFA NMRIH"
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 
-SWEP.PrintName = "VZ. 58"
+SWEP.PrintName = "CZ 858 Tactical"
 
 SWEP.ViewModel			= "models/weapons/tfa_nmrih/v_fa_cz858.mdl" --Viewmodel path
 SWEP.ViewModelFOV = 50
@@ -35,7 +35,7 @@ SWEP.Primary.DefaultClip = 120
 
 SWEP.Primary.Sound = "Weapon_cz858.Single"
 SWEP.Primary.Ammo = "ar2"
-SWEP.Primary.Automatic = true
+SWEP.Primary.Automatic = false
 SWEP.Primary.RPM = 800
 SWEP.Primary.Damage = 40
 SWEP.Primary.NumShots = 1

@@ -6,7 +6,7 @@ SWEP.AdminSpawnable = true
 SWEP.PrintName = "MAC 10"
 
 SWEP.ViewModel			= "models/weapons/tfa_nmrih/v_fa_mac10.mdl" --Viewmodel path
-SWEP.ViewModelFOV = 50
+SWEP.ViewModelFOV = 48
 
 SWEP.WorldModel			= "models/weapons/tfa_nmrih/w_fa_mac10.mdl" --Viewmodel path
 SWEP.HoldType = "pistol"
@@ -40,11 +40,11 @@ SWEP.Primary.Automatic = true
 SWEP.Primary.RPM = 1250
 SWEP.Primary.Damage = 28
 SWEP.Primary.NumShots = 1
-SWEP.Primary.Spread		= .020				--This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
+SWEP.Primary.Spread		= .025				--This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
 SWEP.Primary.IronAccuracy = .0125	-- Ironsight accuracy, should be the same for shotguns
-SWEP.SelectiveFire = true
+SWEP.SelectiveFire = false
 
-SWEP.Primary.KickUp			= 0.3				-- This is the maximum upwards recoil (rise)
+SWEP.Primary.KickUp			= 0.35				-- This is the maximum upwards recoil (rise)
 SWEP.Primary.KickDown			= 0.3					-- This is the maximum downwards recoil (skeet)
 SWEP.Primary.KickHorizontal			= 0.3					-- This is the maximum sideways recoil (no real term)
 SWEP.Primary.StaticRecoilFactor = 0.2 	--Amount of recoil to directly apply to EyeAngles.  Enter what fraction or percentage (in decimal form) you want.  This is also affected by a convar that defaults to 0.5.

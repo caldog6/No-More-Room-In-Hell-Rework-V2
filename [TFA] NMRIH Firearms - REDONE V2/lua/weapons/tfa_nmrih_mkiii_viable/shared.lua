@@ -1,11 +1,11 @@
 SWEP.Base = "tfa_nmrih_base_fa"
-SWEP.Category = "TFA NMRIH"
+SWEP.Category = "TFA NMRIH - Custom"
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true
 
 SWEP.Slot = 1
 
-SWEP.PrintName = "Ruger MK III"
+SWEP.PrintName = "Ruger MK III Auto "
 
 SWEP.ViewModel			= "models/weapons/tfa_nmrih/v_fa_mkiii.mdl" --Viewmodel path
 SWEP.ViewModelFOV = 50
@@ -31,12 +31,12 @@ SWEP.Scoped = false
 SWEP.Shotgun = false
 SWEP.ShellTime = 0.75
 
-SWEP.Primary.ClipSize = 10
-SWEP.Primary.DefaultClip = 40
+SWEP.Primary.ClipSize = 12
+SWEP.Primary.DefaultClip = 48
 
 SWEP.Primary.Sound = "Weapon_Mkiii.Fire"
 SWEP.Primary.Ammo = "pistol"
-SWEP.Primary.Automatic = false
+SWEP.Primary.Automatic = true
 SWEP.Primary.RPM = 570
 SWEP.Primary.Damage = 24
 SWEP.Primary.NumShots = 1
